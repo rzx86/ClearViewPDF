@@ -1,0 +1,36 @@
+# Python environments and caches
+.venv/
+.venv-win/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.cache/
+
+# Local models, credentials, and reading state
+.models/
+.env
+.env.*
+!.env.example
+*reading-state.json
+
+# Build and packaging output
+build/
+/dist*/
+/package-candidate/
+/_internal/
+/verification/
+/ClearViewPDF.spec
+packaging/clearview.ico
+*.exe
+*.msi
+*.zip
+*.7z
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
